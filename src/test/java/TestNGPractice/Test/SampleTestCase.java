@@ -24,7 +24,7 @@ public class SampleTestCase {
 		System.out.println("The before Test executed");
 		Message.DisplayMessage();
 		
-		System.setProperty("webdriver.chrome.driver","D:\\a\\1\\s\\resources\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","D:\\a\\1\\s\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
 		// System.setProperty("webdriver.gecko.driver","D:\\a\\1\\s\\resources\\geckodriver.exe");
